@@ -13,8 +13,15 @@ export const metadata: Metadata = {
     default: "Nodra Studio — Diseño y desarrollo digital",
     template: "%s — Nodra Studio",
   },
-  description: "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
-  keywords: ["diseño web", "desarrollo web", "tiendas online", "sistemas a medida", "Nodra Studio"],
+  description:
+    "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
+  keywords: [
+    "diseño web",
+    "desarrollo web",
+    "tiendas online",
+    "sistemas a medida",
+    "Nodra Studio",
+  ],
   authors: [{ name: "Nodra Studio" }],
   creator: "Nodra Studio",
   alternates: { canonical: "/" },
@@ -24,18 +31,26 @@ export const metadata: Metadata = {
     url: "/",
     siteName: "Nodra Studio",
     title: "Nodra Studio — Diseño y desarrollo digital",
-    description: "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
+    description:
+      "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
   },
   twitter: {
     card: "summary",
     title: "Nodra Studio — Diseño y desarrollo digital",
-    description: "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
+    description:
+      "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
   },
   robots: { index: true, follow: true },
   other: { "codex-preview": "development" },
   icons: { icon: "/brand/nodra-mark.webp" },
 };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
-  return <html lang="es"><body className="antialiased">{children}</body></html>;
+export default function RootLayout({
+  children,
+}: Readonly<{ children: React.ReactNode }>) {
+  return (
+    <html lang="es">
+      <body className="antialiased">{children}</body>
+    </html>
+  );
 }
