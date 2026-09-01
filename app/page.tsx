@@ -389,7 +389,7 @@ export default function Home() {
               </div>
             </div>
             <a
-              href="mailto:hola@nodra.studio?subject=Quiero%20iniciar%20un%20proyecto"
+              href="mailto:studionodra@gmail.com?subject=Quiero%20iniciar%20un%20proyecto"
               className="group flex items-center justify-between bg-brand px-6 py-5 font-medium text-white"
             >
               <span>Contanos tu proyecto</span>
