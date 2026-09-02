@@ -180,7 +180,10 @@ a {
   backdrop-filter: blur(0.5rem);
 }
 .marquee-track {
+  display: flex;
+  width: max-content;
   animation: marquee 22s linear infinite;
+  will-change: transform;
 }
 .process-step {
   transition:
@@ -227,10 +230,14 @@ a {
   }
 }
 @keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
   to {
     transform: translateX(-33.333%);
   }
 }
+
 :focus-visible {
   outline: 2px solid var(--brand);
   outline-offset: 4px;
@@ -257,15 +264,18 @@ a {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  .marquee-track {
+    animation-duration: 22s !important;
+  }
   html {
     scroll-behavior: auto;
   }
-  *,
-  *::before,
-  *::after {
-    animation-duration: 0.01ms !important;
-    animation-delay: 0ms !important;
+  *:not(.marquee-track), *:not(.marquee-track)::before, *:not(.marquee-track):after {
     scroll-behavior: auto !important;
-    transition-duration: 0.01ms !important;
+    transition-duration: .01ms !important;
+    animation-duration: .01ms !important;
+    animation-delay: 0s !important;
   }
 }
+
+
