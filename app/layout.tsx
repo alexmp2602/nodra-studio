@@ -8,7 +8,7 @@ import "@fontsource/barlow-condensed/700.css";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://nodra-studio.lexthus.chatgpt.site"),
+  metadataBase: new URL("https://nodrastudio.com"),
   title: {
     default: "Nodra Studio — Diseño y desarrollo digital",
     template: "%s — Nodra Studio",

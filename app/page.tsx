@@ -434,7 +434,7 @@ export default function Home() {
               </a>
             </div>
           </div>
-          <div className="mt-16 flex flex-col gap-3 border-t border-white/20 pt-6 text-xs uppercase tracking-[0.1em] text-white/40 sm:flex-row sm:justify-between">
+          <div className="mt-16 flex flex-col gap-3 border-t border-white/20 pt-6 text-xs uppercase tracking-widest text-white/40 sm:flex-row sm:justify-between">
             <span>© {new Date().getFullYear()} Nodra Studio</span>
             <span>Buenos Aires · Málaga</span>
           </div>
