@@ -160,7 +160,7 @@ export default function Home() {
       </section>
       <section
         id="Redes"
-        className="site-container grid min-h-[30px] scroll-mt-24 grid-cols-12 border-x border-ink/15 bg-brand"
+        className="site-container grid min-h-7.5 scroll-mt-24 grid-cols-12 border-x border-ink/15 bg-brand"
       >
         <div className="col-span-12 flex items-center justify-center gap-5 sm:gap-6 py-6">
           <a
