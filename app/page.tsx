@@ -1,5 +1,7 @@
 import Image from "next/image";
 import { SiteHeader } from "@/components/site-header";
+import { IconBrandInstagram } from '@tabler/icons-react';
+import { IconBrandFacebook } from '@tabler/icons-react';
 
 const services = [
   {
@@ -155,6 +157,31 @@ export default function Home() {
             Estrategia, diseño y tecnología trabajando como un solo sistema.
           </div>
         </aside>
+      </section>
+      <section
+        id="Redes"
+        className="site-container grid min-h-[30px] scroll-mt-24 grid-cols-12 border-x border-ink/15 bg-brand"
+      >
+        <div className="col-span-12 flex items-center justify-center gap-5 sm:gap-6 py-6">
+          <a
+            href="https://www.instagram.com/studio.nodra/"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Instagram"
+            className="group flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white text-red-600 shadow-md transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg active:scale-95"
+          >
+            <IconBrandInstagram className="w-6 h-6 sm:w-7 sm:h-7 transition-transform duration-300 group-hover:rotate-6 text-red-600" stroke={2.0} />
+          </a>
+          <a
+            href="https://www.facebook.com/profile.php?id=61594058189958"
+            target="_blank"
+            rel="noreferrer"
+            aria-label="Facebook"
+            className="group flex items-center justify-center w-12 h-12 sm:w-14 sm:h-14 rounded-full bg-white text-red-600 shadow-md transition-all duration-300 ease-out hover:scale-105 hover:shadow-lg active:scale-95"
+          >
+            <IconBrandFacebook className="w-6 h-6 sm:w-7 sm:h-7 transition-transform duration-300 group-hover:-rotate-6 text-red-600" stroke={2.0} />
+          </a>
+        </div>
       </section>
 
       <section
@@ -390,11 +417,11 @@ export default function Home() {
             </div>
             <a
               href="mailto:info@nodrastudio.com?subject=Quiero%20iniciar%20un%20proyecto"
-              className="group flex items-center justify-between bg-brand px-6 py-5 font-medium"
+              className="group flex items-center justify-between bg-brand px-6 py-5 font-medium text-white!important"
             >
-              <span className="text-white">Contanos tu proyecto</span>
+              <span>Contanos tu proyecto</span>
               <span
-                className="text-white text-2xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
+                className="text-2xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
                 aria-hidden="true"
               >
                 ↗
