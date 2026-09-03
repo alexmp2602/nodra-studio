@@ -37,17 +37,26 @@ export const metadata: Metadata = {
       "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
     images: [
       {
-        url: "/brand/nodra-studio-logo-square.png",
-        alt: "Nodra Studio",
+        url: "/brand/nodra-og.png",
+        width: 1200,
+        height: 630,
+        alt: "Nodra Studio — Diseño y desarrollo digital",
       },
     ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Nodra Studio — Diseño y desarrollo digital",
     description:
       "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
-    images: ["/brand/nodra-studio-logo-square.png"],
+    images: [
+      {
+        url: "/brand/nodra-og.png",
+        width: 1200,
+        height: 630,
+        alt: "Nodra Studio — Diseño y desarrollo digital",
+      },
+    ],
   },
   robots: {
     index: true,
