@@ -163,7 +163,6 @@ export default function Home() {
         className="site-container grid min-h-[30px] scroll-mt-24 grid-cols-12 border-x border-ink/15 bg-brand"
       >
         <div className="col-span-12 flex items-center justify-center gap-5 sm:gap-6 py-6">
-          {/* Instagram */}
           <a
             href="https://www.instagram.com/studio.nodra/"
             target="_blank"
@@ -173,8 +172,6 @@ export default function Home() {
           >
             <IconBrandInstagram className="w-6 h-6 sm:w-7 sm:h-7 transition-transform duration-300 group-hover:rotate-6 text-red-600" stroke={2.0} />
           </a>
-
-          {/* Facebook */}
           <a
             href="https://www.facebook.com/profile.php?id=61594058189958"
             target="_blank"
