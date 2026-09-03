@@ -37,7 +37,7 @@ export const metadata: Metadata = {
       "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
     images: [
       {
-        url: "/brand/nodra-og-v2.png",
+        url: "/brand/nodra-og.png",
         width: 1200,
         height: 630,
         alt: "Nodra Studio — Diseño y desarrollo digital",
@@ -51,7 +51,7 @@ export const metadata: Metadata = {
       "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
     images: [
       {
-        url: "/brand/nodra-og-v2.png",
+        url: "/brand/nodra-og.png",
         width: 1200,
         height: 630,
         alt: "Nodra Studio — Diseño y desarrollo digital",
