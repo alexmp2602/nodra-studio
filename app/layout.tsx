@@ -24,7 +24,9 @@ export const metadata: Metadata = {
   ],
   authors: [{ name: "Nodra Studio" }],
   creator: "Nodra Studio",
-  alternates: { canonical: "/" },
+  alternates: {
+    canonical: "/",
+  },
   openGraph: {
     type: "website",
     locale: "es_AR",
@@ -33,21 +35,37 @@ export const metadata: Metadata = {
     title: "Nodra Studio — Diseño y desarrollo digital",
     description:
       "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
+    images: [
+      {
+        url: "/brand/nodra-studio-logo-horizontal.png",
+        alt: "Nodra Studio",
+      },
+    ],
   },
   twitter: {
-    card: "summary",
+    card: "summary_large_image",
     title: "Nodra Studio — Diseño y desarrollo digital",
     description:
       "Diseñamos y desarrollamos sitios web, tiendas online y sistemas a medida para marcas y empresas.",
+    images: ["/brand/nodra-studio-logo-horizontal.png"],
   },
-  robots: { index: true, follow: true },
-  other: { "codex-preview": "development" },
-  icons: { icon: "/brand/nodra-mark.webp" },
+  robots: {
+    index: true,
+    follow: true,
+  },
+  other: {
+    "codex-preview": "development",
+  },
+  icons: {
+    icon: "/brand/nodra-mark.webp",
+  },
 };
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: Readonly<{
+  children: React.ReactNode;
+}>) {
   return (
     <html lang="es">
       <body className="antialiased">{children}</body>
