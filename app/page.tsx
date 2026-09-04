@@ -372,7 +372,7 @@ export default function Home() {
             {process.map((step) => (
               <li
                 key={step.number}
-                className="process-step flex min-h-80 flex-col justify-between border-b border-r border-ink/20 p-6 sm:min-h-96"
+                className="process-step flex min-h-60 flex-col justify-between border-b border-r border-ink/20 p-6 sm:min-h-60"
               >
                 <span className="text-sm text-brand">{step.number}</span>
                 <div>
@@ -419,7 +419,7 @@ export default function Home() {
               href="mailto:info@nodrastudio.com?subject=Quiero%20iniciar%20un%20proyecto"
               className="group flex items-center justify-between bg-brand px-6 py-5 font-medium text-white!important"
             >
-              <span>Contanos tu proyecto</span>
+              <span className="text-white">Contanos tu proyecto</span>
               <span
                 className="text-2xl transition-transform group-hover:translate-x-1 group-hover:-translate-y-1"
                 aria-hidden="true"
